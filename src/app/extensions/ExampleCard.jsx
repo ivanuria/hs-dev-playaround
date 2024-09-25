@@ -13,8 +13,7 @@ const Extension = () => {
         some pointers to get you started:
       </Text>
       <Button
-        onClick={(event) => {
-          event.preventDefault()
+        onClick={() => {
           axios.post("https://c9421f8b-cd8d-4fae-8201-0fb4593d1e2b.mock.pstmn.io", {
           "hola": "caracola"
           })
