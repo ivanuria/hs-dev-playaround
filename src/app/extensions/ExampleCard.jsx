@@ -13,9 +13,12 @@ const Extension = () => {
         some pointers to get you started:
       </Text>
       <Button
-        onClick={() => axios.post("https://c9421f8b-cd8d-4fae-8201-0fb4593d1e2b.mock.pstmn.io", {
+        onClick={(event) => {
+          event.preventDefault()
+          axios.post("https://c9421f8b-cd8d-4fae-8201-0fb4593d1e2b.mock.pstmn.io", {
           "hola": "caracola"
-        })}
+          })
+        }}
       >Click me!</Button>
       <List variant="unordered-styled">
         <Link href="https://developers.hubspot.com/docs/platform/ui-components">
