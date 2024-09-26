@@ -1,7 +1,7 @@
 {
   "settings": {
     "targetUrl": "https://c9421f8b-cd8d-4fae-8201-0fb4593d1e2b.mock.pstmn.io",
-    "maxConcurrentRequests": 10
+    "maxConcurrentRequests": 1
   },
   "subscriptions": {
     "crmObjects": [
