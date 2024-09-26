@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, List, Text, Link, Alert } from "@hubspot/ui-extensions";
 import { hubspot } from "@hubspot/ui-extensions";
-import axios from "axios";
 
 hubspot.extend(() => <Extension />);
 
